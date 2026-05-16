@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Chat Opportunity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 520px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.08);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 25px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #00ffd5;
+        }
+
+        .sub {
+            font-size: 15px;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #ffcc00;
+            color: black;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: block;
+            margin: 15px auto;
+            padding: 15px;
+            width: 90%;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .start {
+            background: #00c853;
+            color: white;
+        }
+
+        .whatsapp {
+            background: #25D366;
+            color: white;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 8px;
+            font-size: 13px;
+        }
+
+        .steps {
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .step {
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            margin-top: 8px;
+            border-radius: 10px;
+            font-size: 14px;
+        }
+
+        /* FLOATING WHATSAPP BUTTON */
+        .wa-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            text-decoration: none;
+            z-index: 999;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.6); }
+            70% { box-shadow: 0 0 0 15px rgba(37,211,102,0); }
+            100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <h1>🌍 Online Chat Opportunity</h1>
+
+        <div class="badge">NEW ACCESS OPEN</div>
+
+        <p class="sub">
+            Access a simple online chat-based system and complete digital tasks after registration. Works on any smartphone.
+        </p>
+
+        <p style="color:#ffd700;font-weight:bold;">
+            ⚡ Limited access available today — register while slots are open
+        </p>
+
+        <a class="btn start" href="https://starhela.com/register.php?ref=CHATWITHFOREIGNERS">
+            👉 CREATE ACCOUNT & START NOW
+        </a>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/254753569634?text=Hi%20I%20need%20help%20with%20registration">
+            💬 TALK TO SUPPORT ON WHATSAPP
+        </a>
+
+        <h3>🚀 How It Works</h3>
+
+        <div class="steps">
+            <div class="step">1. Create your account using the button above</div>
+            <div class="step">2. Get access to available chat-based tasks</div>
+            <div class="step">3. Follow instructions and begin activities</div>
+        </div>
+
+        <h3>⭐ Why People Join</h3>
+
+        <div class="box">✔ Works on any smartphone</div>
+        <div class="box">✔ Beginner-friendly system</div>
+        <div class="box">✔ Simple registration process</div>
+        <div class="box">✔ Flexible online activity</div>
+
+        <h3>💬 User Feedback</h3>
+
+        <div class="box">“Very simple to understand and register.”</div>
+        <div class="box">“Everything works smoothly on my phone.”</div>
+        <div class="box">“Easy setup and clear instructions.”</div>
+
+    </div>
+
+</div>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/254753569634?text=Hello%20I%20need%20help"
+   class="wa-float"
+   target="_blank">
+   💬
+</a>
+
+</body>
+</html>
